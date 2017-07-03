@@ -1,0 +1,120 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/Partical_Filter/CarND-Kidnapped-Vehicle-Satya/src/helper_functions.h
+sstream
+-
+fstream
+-
+math.h
+-
+vector
+-
+map.h
+/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/Partical_Filter/CarND-Kidnapped-Vehicle-Satya/src/map.h
+
+/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/Partical_Filter/CarND-Kidnapped-Vehicle-Satya/src/json.hpp
+algorithm
+-
+array
+-
+cassert
+-
+cctype
+-
+ciso646
+-
+cmath
+-
+cstddef
+-
+cstdint
+-
+cstdlib
+-
+cstring
+-
+forward_list
+-
+functional
+-
+initializer_list
+-
+iomanip
+-
+iostream
+-
+iterator
+-
+limits
+-
+locale
+-
+map
+-
+memory
+-
+numeric
+-
+sstream
+-
+stdexcept
+-
+string
+-
+type_traits
+-
+utility
+-
+vector
+-
+
+/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/Partical_Filter/CarND-Kidnapped-Vehicle-Satya/src/main.cpp
+uWS/uWS.h
+-
+iostream
+-
+json.hpp
+/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/Partical_Filter/CarND-Kidnapped-Vehicle-Satya/src/json.hpp
+math.h
+-
+particle_filter.h
+/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/Partical_Filter/CarND-Kidnapped-Vehicle-Satya/src/particle_filter.h
+
+/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/Partical_Filter/CarND-Kidnapped-Vehicle-Satya/src/map.h
+
+/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/Partical_Filter/CarND-Kidnapped-Vehicle-Satya/src/particle_filter.cpp
+random
+-
+algorithm
+-
+random
+-
+iostream
+-
+tuple
+-
+numeric
+-
+math.h
+-
+iostream
+-
+sstream
+-
+string
+-
+iterator
+-
+particle_filter.h
+/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/Partical_Filter/CarND-Kidnapped-Vehicle-Satya/src/particle_filter.h
+
+/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/Partical_Filter/CarND-Kidnapped-Vehicle-Satya/src/particle_filter.h
+helper_functions.h
+/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/Partical_Filter/CarND-Kidnapped-Vehicle-Satya/src/helper_functions.h
+

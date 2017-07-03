@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6DD4D25791204F72B3F9468E /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AF47759C825342B09F3370C8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				ECBDFAEE6CB3407FB0800514 /* CMake Rules */,
+			);
+			dependencies = (
+				BEEC0500D8E94C4C9BF4DD70 /* PBXTargetDependency */,
+				B5B8AE39E1FC4F22AC6BD4B9 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		B5E046406F71488BBAF9AAA8 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6F9753A0662C46EDA3636D95 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				32CB3196437846A480B616B8 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		168990E1DFF742FEBFC5514A /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp */ = {isa = PBXBuildFile; fileRef = 26FD972A0BC84393A562839B /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp */; };
+		1D83BC17A8C64012AAF79886 /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5CDE1C0C52BE4D5F80435011 /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */; };
+		35EA226C86F14C278095337B /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/src/kalman_filter.cpp */ = {isa = PBXBuildFile; fileRef = 86A00EDA2A4842A1BE4685D3 /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/src/kalman_filter.cpp */; };
+		A0DB70DB16E144C9A61C8BB2 /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 592F730C38F34E0687C7B64F /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/src/main.cpp */; };
+		D0EE70BE4FF540E792E2AD4B /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/src/tools.cpp */ = {isa = PBXBuildFile; fileRef = 9F0DB617A1184DAE9543B65D /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/src/tools.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		04C6925F1C7A48F285920BFB /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		31BBFA43242142748B1DED47 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		8E2FF6862A624D5DAD45C81F = {
+			isa = PBXBuildStyle;
+		};
+		AAC31062E30F43F8BC700C71 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		F75F191E0BC64E8597CB9F19 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1AEB0628F5DA46A2B3A8EB9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54D09800953A45198FFA62F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5E046406F71488BBAF9AAA8;
+			remoteInfo = ZERO_CHECK;
+		};
+		3DF2CAB239244424BF6245A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54D09800953A45198FFA62F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C3446FF845A41D480377D50;
+			remoteInfo = ExtendedKF;
+		};
+		914AA8FD9BB5442A898664F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54D09800953A45198FFA62F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5E046406F71488BBAF9AAA8;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26FD972A0BC84393A562839B /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FusionEKF.cpp; path = src/FusionEKF.cpp; sourceTree = SOURCE_ROOT; };
+		4467B09720C746EAB3FF96B9 /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		592F730C38F34E0687C7B64F /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		5CDE1C0C52BE4D5F80435011 /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		77BC3DB3E8B542688F3860BB /* ExtendedKF */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ExtendedKF; sourceTree = BUILT_PRODUCTS_DIR; };
+		86A00EDA2A4842A1BE4685D3 /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/src/kalman_filter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kalman_filter.cpp; path = src/kalman_filter.cpp; sourceTree = SOURCE_ROOT; };
+		9F0DB617A1184DAE9543B65D /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/src/tools.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tools.cpp; path = src/tools.cpp; sourceTree = SOURCE_ROOT; };
+		C45A67D040BE491FB597F06F /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		187085F0DB8A45079BB5073E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77BC3DB3E8B542688F3860BB /* ExtendedKF */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26CAFEF604D14F7E9E7B942B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		73DA718FB94B47F396807E98 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				26FD972A0BC84393A562839B /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp */,
+				86A00EDA2A4842A1BE4685D3 /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/src/kalman_filter.cpp */,
+				592F730C38F34E0687C7B64F /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/src/main.cpp */,
+				9F0DB617A1184DAE9543B65D /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/src/tools.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		817225FE5CA6483B9D0F15F4 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				F21324AF8BD74EB78EA9FA04 /* CMake Rules */,
+				4467B09720C746EAB3FF96B9 /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		9E4FF7A33E98458A928117D4 /* ExtendedKF */ = {
+			isa = PBXGroup;
+			children = (
+				73DA718FB94B47F396807E98 /* Source Files */,
+				5CDE1C0C52BE4D5F80435011 /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */,
+			);
+			name = ExtendedKF;
+			sourceTree = "<group>";
+		};
+		A264B0B514AA492FB1E15816 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9E4FF7A33E98458A928117D4 /* ExtendedKF */,
+				E43DE3C3E9214709850ACEB5 /* ALL_BUILD */,
+				817225FE5CA6483B9D0F15F4 /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		D74E1A16FF5E4B35938569BA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E43DE3C3E9214709850ACEB5 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				26CAFEF604D14F7E9E7B942B /* CMake Rules */,
+				C45A67D040BE491FB597F06F /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		F21324AF8BD74EB78EA9FA04 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F5836A551FC9491B871FF20C = {
+			isa = PBXGroup;
+			children = (
+				A264B0B514AA492FB1E15816 /* Sources */,
+				D74E1A16FF5E4B35938569BA /* Resources */,
+				187085F0DB8A45079BB5073E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C3446FF845A41D480377D50 /* ExtendedKF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA0E82FDD8F64B17A00E8899 /* Build configuration list for PBXNativeTarget "ExtendedKF" */;
+			buildPhases = (
+				50E7036113B14158B02E70E1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07F820EACBAD4D9284DD160A /* PBXTargetDependency */,
+			);
+			name = ExtendedKF;
+			productName = ExtendedKF;
+			productReference = 77BC3DB3E8B542688F3860BB /* ExtendedKF */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54D09800953A45198FFA62F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0830;
+			};
+			buildConfigurationList = 88D7514E20E24BDBBC18270E /* Build configuration list for PBXProject "ExtendedKF" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				31BBFA43242142748B1DED47 /* Debug */,
+				04C6925F1C7A48F285920BFB /* Release */,
+				F75F191E0BC64E8597CB9F19 /* MinSizeRel */,
+				AAC31062E30F43F8BC700C71 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = F5836A551FC9491B871FF20C;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				6DD4D25791204F72B3F9468E /* ALL_BUILD */,
+				9C3446FF845A41D480377D50 /* ExtendedKF */,
+				B5E046406F71488BBAF9AAA8 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32CB3196437846A480B616B8 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/satyasatyasheel/Dropbox\\ (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project -f /Users/satyasatyasheel/Dropbox\\ (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		58AA2B788FFB489CAA8A097A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		ECBDFAEE6CB3407FB0800514 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/satyasatyasheel/Dropbox\\ (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project -f /Users/satyasatyasheel/Dropbox\\ (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F9C86CBC212F44B1998795EC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50E7036113B14158B02E70E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168990E1DFF742FEBFC5514A /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp */,
+				35EA226C86F14C278095337B /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/src/kalman_filter.cpp */,
+				A0DB70DB16E144C9A61C8BB2 /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/src/main.cpp */,
+				D0EE70BE4FF540E792E2AD4B /* /Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/src/tools.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07F820EACBAD4D9284DD160A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5E046406F71488BBAF9AAA8 /* ZERO_CHECK */;
+			targetProxy = 1AEB0628F5DA46A2B3A8EB9F /* PBXContainerItemProxy */;
+		};
+		B5B8AE39E1FC4F22AC6BD4B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5E046406F71488BBAF9AAA8 /* ZERO_CHECK */;
+			targetProxy = 914AA8FD9BB5442A898664F6 /* PBXContainerItemProxy */;
+		};
+		BEEC0500D8E94C4C9BF4DD70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C3446FF845A41D480377D50 /* ExtendedKF */;
+			targetProxy = 3DF2CAB239244424BF6245A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2CC1B28731F94678ABC93131 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -std=c++0x";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ExtendedKF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		301A7D5FB73E4718A85E292D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		66047CB9B68E462C8890F6D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6D1B16316FE0421E8C0ED86B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		786BC3260FB6457EB2EBCB04 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		79F40A730C2B4978B48B6E48 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/build";
+			};
+			name = MinSizeRel;
+		};
+		820EC6241EE14DD3992695DA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		99272F7C445B4AEA91C3583D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/build";
+			};
+			name = Debug;
+		};
+		BE83BADCFF9745AF8654DC60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C07248064B084584A1558A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/build";
+			};
+			name = Release;
+		};
+		C64172F940F548ABBECB37AC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG   -std=c++0x";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ExtendedKF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CEBD1A56690C498782581BD7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E744A9538EDA47808FD6FCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		ED3920D8F744433C83EE3074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -std=c++0x";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ExtendedKF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F28A5B571EE341E9A79205F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "     -std=c++0x";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ExtendedKF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F9FBFCF07E46464BBA829873 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/satyasatyasheel/Dropbox (Personal)/udacity_self_criving_car/second_term/EKF/CarND-Extended-Kalman-Filter-Project/build";
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F9753A0662C46EDA3636D95 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE83BADCFF9745AF8654DC60 /* Debug */,
+				E744A9538EDA47808FD6FCBD /* Release */,
+				820EC6241EE14DD3992695DA /* MinSizeRel */,
+				6D1B16316FE0421E8C0ED86B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		88D7514E20E24BDBBC18270E /* Build configuration list for PBXProject "ExtendedKF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99272F7C445B4AEA91C3583D /* Debug */,
+				C07248064B084584A1558A4A /* Release */,
+				79F40A730C2B4978B48B6E48 /* MinSizeRel */,
+				F9FBFCF07E46464BBA829873 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AF47759C825342B09F3370C8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66047CB9B68E462C8890F6D2 /* Debug */,
+				301A7D5FB73E4718A85E292D /* Release */,
+				786BC3260FB6457EB2EBCB04 /* MinSizeRel */,
+				CEBD1A56690C498782581BD7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DA0E82FDD8F64B17A00E8899 /* Build configuration list for PBXNativeTarget "ExtendedKF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28A5B571EE341E9A79205F5 /* Debug */,
+				ED3920D8F744433C83EE3074 /* Release */,
+				2CC1B28731F94678ABC93131 /* MinSizeRel */,
+				C64172F940F548ABBECB37AC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54D09800953A45198FFA62F0 /* Project object */;
+}
